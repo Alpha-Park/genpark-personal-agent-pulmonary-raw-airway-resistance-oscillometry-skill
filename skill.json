@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-pulmonary-raw-airway-resistance-oscillometry-skill",
+  "version": "1.0.0",
+  "description": "Forced Oscillation Technique (FOT / TremoFlo) small-airway resistance R5-R20 & reactance X5 peripheral collapse monitor.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "assess_airway_oscillometry_resistance",
+      "description": "Forced Oscillation Technique (FOT / TremoFlo) small-airway resistance R5-R20 & reactance X5 peripheral collapse monitor.",
+      "sample_input": {
+        "r5_cmh2o_s_l": 3.85,
+        "r20_cmh2o_s_l": 2.7,
+        "x5_cmh2o_s_l": -1.82,
+        "resonant_freq_fres_hz": 18.5
+      }
+    }
+  ]
+}
